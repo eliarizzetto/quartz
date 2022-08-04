@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "prova1.md",
+            "file": "tryout.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prova1.md",
+                "file": "tryout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prova1.md",
+                "file": "tryout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prova1.md"
+                "file": "tryout.md"
               }
             }
           }
@@ -130,8 +130,8 @@
   },
   "active": "b587a076034e420e",
   "lastOpenFiles": [
-    "tryout.md",
     "prova1.md",
+    "tryout.md",
     "link esempio.md"
   ]
 }
