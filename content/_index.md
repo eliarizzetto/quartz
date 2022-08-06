@@ -4,7 +4,7 @@ title: "My Thesis Diary"
 
 This website hosts the diary I am writing to keep track of the progress and manage all useful material in researching for my masters' thesis.
 
-Let's see if [this link](/thesis_diary/prova1.md) works.
+Let's see if [this link](thesis_diary/prova1.md) works.
 
 It would be great if [this](thesis_diary/tryout.md) worked as well. 
 
