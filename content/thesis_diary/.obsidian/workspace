@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "prova 2.md",
+            "file": "prova1.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prova 2.md",
+                "file": "prova1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prova 2.md",
+                "file": "prova1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prova 2.md"
+                "file": "prova1.md"
               }
             }
           }
@@ -130,12 +130,13 @@
   },
   "active": "3d3bb0e0c634a398",
   "lastOpenFiles": [
+    "cartella di prova/documento prova link.md",
     "prova1.md",
     "prova 3.md",
-    "Meetings.md",
-    "Meetings/Untitled.md",
-    "tryout.md",
     "prova 2.md",
+    "Meetings.md",
+    "tryout.md",
+    "Meetings/Untitled.md",
     "link esempio.md"
   ]
 }
