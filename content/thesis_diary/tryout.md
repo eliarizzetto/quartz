@@ -13,3 +13,5 @@ if desperate == True:
 else:
 	print("Don't lie!")
 ```
+
+Questo file (pagina) è creato con un wikilink per vedere se funziona uguale anche con questo tipo di link e se gli spazi non danno problemi [[prova 2]]

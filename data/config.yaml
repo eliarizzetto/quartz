@@ -17,7 +17,7 @@ operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
   This is the online, public version of my "thesis diary", a vault of markdown notes to keep track of anything useful for my final thesis project at the Digital Humanities and Digital Knowledge course @ Alma Mater Studiorum - University of Bologna.
 page_title:
-  "Dissertation Diary"
+  "My Thesis Diary"
 links:
   - link_name: Github
-    link: https://github.com/eliarizzetto
+  - link: https://github.com/eliarizzetto
