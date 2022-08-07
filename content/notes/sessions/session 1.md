@@ -11,7 +11,7 @@ Reference-week: 33rd week of  2022
 
 
 
-> [!info] My goal for this session
+> [!info]+ My goal for this session
 > 
 > The description of your goal goes here
 
