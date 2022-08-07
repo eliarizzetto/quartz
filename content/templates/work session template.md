@@ -9,6 +9,7 @@ Reference-week: Week <% tp.date.now("WW") %> of <% tp.date.now("YYYY") %>
 
 🔙 [*Previous work session*]("#insert path")
 
-> [!info]+ The goal of this work session
-> Describe what you want to do in this work session
+> [!info] My goal for this session
+> 
+> The description of your goal goes here
 

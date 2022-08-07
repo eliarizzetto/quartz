@@ -11,8 +11,8 @@ Reference-week: 33rd week of  2022
 
 
 
-> [!info]+ Describe what you want to do in this work session
+> [!info] My goal for this session
 > 
-> Your description goes here
+> The description of your goal goes here
 
 

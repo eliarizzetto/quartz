@@ -8,7 +8,8 @@ date: <% tp.file.creation_date() %>
 Reference-week: Week <% tp.date.now("WW") %> of <% tp.date.now("YYYY") %>
 
 
-> [!abstract]+
+> [!abstract] Abstract
+> 
 > In this meeting we talked about:
 
 ## **Introduction**
