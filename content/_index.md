@@ -8,9 +8,9 @@ This website hosts the diary I am writing to keep track of the progress and mana
 
 This is a wikilink for the page [[notes/tryout]], let's see if it works.
 
-Take me to the [[notes/Meetings Index]] or [Meetings Index](notes/Meetings%20Index)
+Take me to the [Meetings Index](notes/Meetings%20Index)
 
-Take me to the [[notes/Sessions Index]] or [Sessions  Index](notes/Sessions%20Index)
+Take me to the [Sessions  Index](notes/Sessions%20Index)
 
 
 

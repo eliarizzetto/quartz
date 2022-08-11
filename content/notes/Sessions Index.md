@@ -4,4 +4,4 @@ openToc: false
 ---
 # Sessions Index
 
-[[notes/sessions/session 1]]
+[[notes/sessions/session 001]]

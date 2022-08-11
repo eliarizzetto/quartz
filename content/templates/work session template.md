@@ -1,15 +1,14 @@
 ---
-title: "session of week <% tp.date.now("WW") %>"
+title: "session 00X"
 tags: []
 date: <% tp.file.creation_date() %>
 ---
 
-# Session of the <% tp.date.now("wo") %> week of  <% tp.date.now("YYYY") %>
-Reference-week: Week <% tp.date.now("WW") %> of <% tp.date.now("YYYY") %>
+# Session 00X
+👥 [*Reference meeting*](#insert path)
+🔙 [*Previous work session*](#insert path)
 
-🔙 [*Previous work session*]("#insert path")
-
-> [!info]+ My goal for this session
+> [!info]+ My goals for this session
 > 
 > The description of your goal goes here
 

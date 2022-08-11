@@ -1,14 +1,14 @@
 ---
-title: "meeting of week <% tp.date.now("WW") %>"
+title: "Meeting 00X"
 tags: []
 date: <% tp.file.creation_date() %>
 ---
 
-# Meeting <% tp.date.now("Do MMM YY") %>
-Reference-week: Week <% tp.date.now("WW") %> of <% tp.date.now("YYYY") %>
+# Meeting 00X
+📑 [*Reference session*](#insert path)
+🔙 [*Previous meeting*]("#insert path")
 
-
-> [!abstract]+ Abstract
+> [!abstract]+ Summary
 > 
 > In this meeting we talked about:
 
