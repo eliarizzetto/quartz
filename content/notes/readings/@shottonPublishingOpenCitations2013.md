@@ -1,7 +1,8 @@
 ---
 title: "Publishing: Open citations"
 authors: David Shotton
-tags: []
+tags:
+- reading
 ---
 # Notes on *Publishing: Open citations*
 Author(s): **David Shotton**

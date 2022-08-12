@@ -1,7 +1,8 @@
 ---
 title: "OpenCitations, an infrastructure organization for open scholarship"
 authors: Silvio Peroni, David Shotton
-tags: []
+tags:
+- reading
 ---
 # Notes on *OpenCitations, an infrastructure organization for open scholarship*
 Author(s): **Silvio Peroni, David Shotton**

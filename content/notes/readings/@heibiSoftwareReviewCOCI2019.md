@@ -1,7 +1,8 @@
 ---
 title: "Software review: COCI, the OpenCitations Index of Crossref open DOI-to-DOI citations"
 authors: Ivan Heibi, Silvio Peroni, David Shotton
-tags: []
+tags:
+- reading
 ---
 # Notes on *Software review: COCI, the OpenCitations Index of Crossref open DOI-to-DOI citations*
 Author(s): **Ivan Heibi, Silvio Peroni, David Shotton**

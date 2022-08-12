@@ -1,11 +1,16 @@
 ---
 title: "Meeting 00X"
-tags: []
+tags:
+- timeline
+- meeting
 date: <% tp.file.creation_date() %>
 ---
-
-# Meeting 00X
+<span 
+		class="ob-timelines"
+		data-date="<% tp.file.creation_date("YYYY-MM-DD[-00]") %>">
+</span>
 📑 [*Reference session*](#insert path)
+
 🔙 [*Previous meeting*]("#insert path")
 
 > [!abstract]+ Summary

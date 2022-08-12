@@ -1,7 +1,8 @@
 ---
 title: "Crowdsourcing open citations with CROCI – An analysis of the current status of open citations, and a proposal"
 authors: Ivan Heibi, Silvio Peroni, David Shotton
-tags: []
+tags: 
+- reading
 ---
 # Notes on *Crowdsourcing open citations with CROCI – An analysis of the current status of open citations, and a proposal*
 Author(s): **Ivan Heibi, Silvio Peroni, David Shotton**
