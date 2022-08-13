@@ -22,7 +22,7 @@ The notes (pages) are organized in a sort of hybrid structure, sort of a mix bet
 
 ## Index of Work Sessions and Meetings
 
-Below, you can find an [Index](_index.md#Index%20of%20Work%20Sessions%20and%20Meetings) of **all the work sessions and the meetings**, which will often be related, at least partially, both temporally and content-wise. 
+Below, you can find an [Index](#Index%20of%20Work%20Sessions%20and%20Meetings) of **all the work sessions and the meetings**, which will often be related, at least partially, both temporally and content-wise. 
 
 
 | **Sessions** | **Meetings** |
