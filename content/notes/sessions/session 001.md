@@ -31,6 +31,8 @@ Each reading has its own dedicated page, linked below, containing simple bibliog
 You can visit [this section](https://eliarizzetto.github.io/quartz/tags/reading) of the website to see all the readings for which a page has been created so far.
 
 #### [@shottonPublishingOpenCitations2013](notes/readings/@shottonPublishingOpenCitations2013.md)
+
+In this article Shotton presents the OCC and its expected development, after a brief overview on other providers of reference lists and the scientific relevance of citation data.
 #### [@heibiCrowdsourcingOpenCitations2019](notes/readings/@heibiCrowdsourcingOpenCitations2019.md)
 #### [@heibiSoftwareReviewCOCI2019](notes/readings/@heibiSoftwareReviewCOCI2019.md)
 #### [@peroniOpenCitationsInfrastructureOrganization2020](notes/readings/@peroniOpenCitationsInfrastructureOrganization2020.md)
