@@ -19,7 +19,6 @@ Year: **2019**
 >
 > In this paper, we analyse the current availability of open citations data in one particular dataset, namely COCI (the OpenCitations Index of Crossref open DOI-to-DOI citations; http://opencitations.net/index/coci) provided by OpenCitations. The results of these analyses show a persistent gap in the coverage of the currently available open citation data. In order to address this specific issue, we propose a strategy whereby the community (e.g. scholars and publishers) can directly involve themselves in crowdsourcing open citations, by uploading their citation data via the OpenCitations infrastructure into our new index, CROCI, the Crowdsourced Open Citations Index.
 
-
 ## Summary
 In this paper the authors analyse the state of availability and "openness" of the papers included, at Oct. 3rd 2018, in the COCI index. COCI was built from a dump of two datasets from Crossref:
 * a set of **completely open reference lists**
@@ -49,17 +48,17 @@ COCI was launched in July 2018 and it is the first of OpenCitations' indexes to 
 Analysing COCI, the authors are addressing the following research questions (RQ):
 #### RQ1: What is the ratio between open vs closed citations inside COCI (for each of the five scholarly entities in COCI, i.e. journals, books, proceedings, datasets and others)?
 
-![fig1](images/@heibiCrowdsourcingOpenCitations2019-fig1.jpg)
+![fig1](images/heibiCrowdsourcingOpenCitations2019-fig1.jpg)
 
 #### RQ2: What are the top 20 *publishers* that has received the highest number of *open* citations for their publications, according to the data in COCI?
 
-![fig2](images/@heibiCrowdsourcingOpenCitations2019-fig2.jpg)
+![fig2](images/heibiCrowdsourcingOpenCitations2019-fig2.jpg)
 
 #### RQ3: How much do these publishers (that, in a way, are benefiting from the availability of open citations) contribute to the open citation movement be making their references open in Crossref?
 
-| ![@heibiCrowdsourcingOpenCitations2019-fig3](images/@heibiCrowdsourcingOpenCitations2019-fig3.jpg) |
+| ![fig3](images/heibiCrowdsourcingOpenCitations2019-fig3.jpg) |
 | ---------------|
-| "Figure 3. The contributions to open citations made by the twenty publishers listed in [Figure 2](images/@heibiCrowdsourcingOpenCitations2019-fig2.jpg), as of 24 January 2018, according to the data available through the Crossref API. The counts listed in the first three results columns of this table refers to the number of publications for which each publisher has submitted metadata to Crossref that include the publication’s reference list, the categories closed, limited and open referring to publications for which the reference lists are not visible to anyone outside the Crossref Cited-by membership, are visible only to them and to Crossref Metadata Plus members, or are visible to all, respectively. [...] The fourth results column in the table shows the total number of publications for which the publisher has submitted metadata to Crossref, whether or not those metadata include the reference lists of those publications, and the fifth results column shows the total number of publications for which the publisher has submitted the reference list with the other metadata. The percentage values given in parentheses show the percentage of publications in each category whose metadata submitted to Crossref includes the reference lists, these percentages being obtained by dividing the values in each column by the total number of publications for which that publisher has submitted metadata to Crossref shown in the fourth results column." (p. 4) |
+| "Figure 3. The contributions to open citations made by the twenty publishers listed in [Figure 2](images/heibiCrowdsourcingOpenCitations2019-fig2.jpg), as of 24 January 2018, according to the data available through the Crossref API. The counts listed in the first three results columns of this table refers to the number of publications for which each publisher has submitted metadata to Crossref that include the publication’s reference list, the categories closed, limited and open referring to publications for which the reference lists are not visible to anyone outside the Crossref Cited-by membership, are visible only to them and to Crossref Metadata Plus members, or are visible to all, respectively. [...] The fourth results column in the table shows the total number of publications for which the publisher has submitted metadata to Crossref, whether or not those metadata include the reference lists of those publications, and the fifth results column shows the total number of publications for which the publisher has submitted the reference list with the other metadata. The percentage values given in parentheses show the percentage of publications in each category whose metadata submitted to Crossref includes the reference lists, these percentages being obtained by dividing the values in each column by the total number of publications for which that publisher has submitted metadata to Crossref shown in the fourth results column." (p. 4) |
 
 ## Observations
 
