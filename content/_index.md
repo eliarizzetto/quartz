@@ -17,7 +17,7 @@ I will create a page:
 * for each relevant reading
 * for single concepts, insights and ideas that seem to be particularly useful accross the whole process of preparing for the writing phase and for the writing phase itself
 
-The notes (pages) are organized in a sort of hybrid structure, sort of a mix between a classic diary, with its events in chronological order, and a graph-like [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), that allows me to easily connect concepts, activities and events without being restricted to the sequential structure of the diary.
+The notes (pages) are organized in a "hybrid" structure, sort of a mix between a classic diary, with its events in chronological order, and a graph-like [zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), that allows me to easily connect concepts, activities and events without being restricted to the sequential structure of the diary.
 
 
 ## Index of Work Sessions and Meetings
@@ -27,7 +27,7 @@ Below, you can find an Index of **all the work sessions and the meetings**, whic
 
 | **Sessions** | **Meetings** |
 | ---------| ---------|
-| [session 001](notes/sessions/session%20001.md) |[meeting 001](notes/meetings/meeting%20001.md) |
+| ↪️[session 001](notes/sessions/session%20001.md) |↪️[meeting 001](notes/meetings/meeting%20001.md) |
 
 
 ## Readings

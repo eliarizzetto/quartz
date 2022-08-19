@@ -22,7 +22,7 @@ date: 2022-08-11 23:10
 ## Readings 
 The following are the readings I am starting off from, in order to get an overview of [OpenCitations](https://opencitations.net/), bibliometrics and other topics related to [Open Science](https://en.wikipedia.org/wiki/Open_science).
 
-Each reading has its own dedicated page, linked below, containing simple bibliographic information and notes on the content of the document. The page is referenced via `citekey`, a unique, ready-to-use identifier relative to my bibliographic collection in Zotero, which I will use for the writing phase. 
+**Each reading has its own dedicated page, linked below**, containing simple bibliographic information and notes on the content of the document. The page is referenced via `citekey`, a unique, ready-to-use identifier relative to my bibliographic collection in Zotero, which I will use for the writing phase. 
 
 You can visit [this section](https://eliarizzetto.github.io/quartz/tags/reading) of the website to see all the readings for which a page has been created so far.
 
