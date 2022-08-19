@@ -10,9 +10,9 @@ date: <% tp.file.creation_date() %>
 		data-date="<% tp.file.creation_date("YYYY-MM-DD[-00]") %>">
 </span>
 
-👥 [*Reference meeting*](#insert path)
+👥 [**Reference meeting: 00X**](#insert path)
 
-🔙 [*Previous work session*](#insert path)
+🔙 [**Previous work session: 00X**](#insert path)
 
 > [!info]+ My goals for this session
 > 

@@ -9,9 +9,7 @@ date: 2022-08-13 15:53
 		class="ob-timelines"
 		data-date="2022-08-13-00">
 </span>
-📑 [*Reference session*](#insert path)
-
-🔙 [*Previous meeting*]("#insert path")
+📑 [**Reference session: 001**](#insert path)
 
 > [!abstract]+ Summary
 > 

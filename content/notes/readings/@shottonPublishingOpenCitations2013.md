@@ -1,5 +1,5 @@
 ---
-title: "Publishing: Open citations"
+title: "@shottonPublishingOpenCitations2013"
 authors: David Shotton
 tags:
 - reading

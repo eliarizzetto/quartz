@@ -9,9 +9,9 @@ date: <% tp.file.creation_date() %>
 		class="ob-timelines"
 		data-date="<% tp.file.creation_date("YYYY-MM-DD[-00]") %>">
 </span>
-📑 [*Reference session*](#insert path)
+📑 [**Reference session: 00X**](#insert path)
 
-🔙 [*Previous meeting*]("#insert path")
+🔙 [**Previous meeting: 00X**]("#insert path")
 
 > [!abstract]+ Summary
 > 

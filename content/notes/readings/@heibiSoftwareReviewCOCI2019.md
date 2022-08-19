@@ -1,5 +1,5 @@
 ---
-title: "Software review: COCI, the OpenCitations Index of Crossref open DOI-to-DOI citations"
+title: "@heibiSoftwareReviewCOCI2019"
 authors: Ivan Heibi, Silvio Peroni, David Shotton
 tags:
 - reading
@@ -25,7 +25,7 @@ Year: **2019**
 
 
 ## Summary
-In this paper the authors introduce COCI, the representation of citations as first-class data entities and the ingestion workflow implemented to create the index; they also provide details on the data contained in COCI and describe services and resources made available by OpenCitations to access the index; finally, they present some statistics about the use of COCI and list some studies and tools that have made use of COCI up to 2019. 
+In this paper the authors introduce COCI, the representation of citations as [first-class data entities](https://en.wikipedia.org/wiki/First_class_(computing)) and the ingestion workflow implemented to create the index; they also provide details on the data contained in COCI and describe services and resources made available by OpenCitations to access the index; finally, they present some statistics about the use of COCI and list some studies and tools that have made use of COCI up to 2019. 
 
 ### **COCI**, the OpenCitations Index of Crossref open DOI-to-DOI citations
 Launched in **2018**, COCI is the first index of OpenCitations to <u>represent citations as **first-class data entities**</u> with accompanying properties, i.e. individuals of the class `cito:Citation`[^1] , instead of being defined simply as relationships between two entities (the one representing the papers) through the property `cito:cites`.
@@ -53,8 +53,8 @@ Treating citations as first-class data entities brings some advantages:
 ### Data Model
 The [OCDM (OpenCitations Data Model)](http://opencitations.net/model) (see p. 1218, fig. 2) has been extended according to the new organization: each citation is a member of the `cito:Citation` class.
 
-So as to identify each citation precisely in the open dataset, a new identifier has been develop for citations: the <u>Open Citation Idenitifier (**OCI**)</u>. An OCI has the following structure: `oci:<citing_entity_identifier>-<cited_entity_identifier>`.
-For example, `oci:0301-03018` is a valid OCI for a citation defined within the OpenCitations Corpus, while `oci:0200101080636010705066308070202630663050902001010806360107050663080702026305630301` is a valid OCI for a citation included in Crossref. <u>OCIs are *not* opaque identifiers, instead they carry information about the citation and the published entities linked by the citation</U>[^2]. 
+So as to identify each citation precisely in the open dataset, a new identifier has been develop for citations: the <u>Open Citation Identifier (**OCI**)</u>. An OCI has the following structure: `oci:<citing_entity_identifier>-<cited_entity_identifier>`.
+For example, `oci:0301-03018` is a valid OCI for a citation defined within the OpenCitations Corpus, while `oci:0200101080636010705066308070202630663050902001010806360107050663080702026305630301` is a valid OCI for a citation included in Crossref. <u>OCIs are *not* opaque identifiers, instead they carry information about the citation and the published entities linked by the citation</u>[^2]. 
 
 [^2]: There is also an [OCI Resolution Service](http://opencitations.net/oci) based on a Python app that returns citation data from a valid OCI in input. 
 

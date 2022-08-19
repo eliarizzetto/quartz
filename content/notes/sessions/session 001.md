@@ -4,9 +4,7 @@ tags:
 - timeline
 - session
 - bibliography
-- opencitations
-- bibliometrics
-- crossref
+- oc
 date: 2022-08-11 23:10
 ---
 <span 
@@ -14,9 +12,7 @@ date: 2022-08-11 23:10
 		data-date="2022-08-11-00">
 </span>
 
-👥 [*Reference meeting*](#insert path)
-
-🔙 [*Previous work session*](#insert path)
+👥 [**Reference meeting: 001**](notes/meetings/meeting%20001.md)
 
 > [!info]+ My goals for this session
 > 
@@ -33,6 +29,15 @@ You can visit [this section](https://eliarizzetto.github.io/quartz/tags/reading)
 #### [@shottonPublishingOpenCitations2013](notes/readings/@shottonPublishingOpenCitations2013.md)
 
 In this article Shotton presents the OCC and its expected development, after a brief overview on other providers of reference lists and the scientific relevance of citation data.
+
 #### [@heibiCrowdsourcingOpenCitations2019](notes/readings/@heibiCrowdsourcingOpenCitations2019.md)
+
+After an analysis of the data in COCI, guided by 3 research questions revolving around the openness of citations and the publisher's role, the authors propose a new, crowdsourced index, for OpenCitations: CROCI. 
+
 #### [@heibiSoftwareReviewCOCI2019](notes/readings/@heibiSoftwareReviewCOCI2019.md)
+
+The authors present COCI and its features (citations as first-class data entities, OCI identifier), the extended OpenCitations Data Model, the ingestion workflow for COCI and some statistics, use cases and tools related to this Index. 
+
 #### [@peroniOpenCitationsInfrastructureOrganization2020](notes/readings/@peroniOpenCitationsInfrastructureOrganization2020.md)
+
+The most complete and up-to-date resource on the OpenCitations infrastructure, summarizing the other readings on the topic. This paper describes OpenCitations and its data sets, tools, services, and activities. These include the Data Model; the SPAR Ontologies; OpenCitations’ open software of generic applicability for searching, browsing, and providing REST APIs over RDF triplestores; OCIs and the OCI Resolution Service; the OpenCitations Corpus (OCC), a database of open downloadable bibliographic and citation data (in RDF and under CC0); and the OpenCitations Indexes of open citation data, of which the first and largest is COCI.
