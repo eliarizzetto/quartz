@@ -22,7 +22,7 @@ DOI: **10.5281/ZENODO.6597140**
 This document is the most complete reference for the syntax of the CSV files for sending metadata and citation data to OpenCitations and allow this data to be processed. 
 
 ## META-CSV: syntax
-The csv file for the metadata is structured as a table with 11 columns, where each row corresponds to a specific document. If an ID is specified, the other fields are not mandatory; otherwise, certain fields become mandatory, according to the [type](notes/readings/@massariarcangeloHowProduceWellformed2022a.md#type) of resource. 
+The csv file for the metadata is structured as a table with 11 columns, where each row corresponds to a specific document. If an ID is specified, the other fields are not mandatory; otherwise, certain fields become mandatory, according to the [type](notes/readings/@massariarcangeloHowProduceWellformed2022a#type) of resource. 
 
 <p align=center style="font-weight:bold;color:#0099cc">
 For a complete set of examples of META-CSV data entries (sample table) see <a href="https://github.com/opencitations/oc_meta/blob/master/example_metadata.csv"><u>oc repo on github</u></a>.
@@ -104,7 +104,7 @@ The page *range* of the resource described in the row. The value is composed of 
 The type of resource described in the row. Here is a complete list of the currently supported bibliographic resource types: book, book chapter, book part, book section, book series, book set, book track, component, dataset (or data file), dissertation, edited book, journal, journal article, journal issue, journal volume, monograph, other, peer review, posted content (or web content), proceedings, proceedings article, proceedings series, reference book, reference entry, report, report series, standard, and standard series.
 
 ### publisher
-The entity responsible for making the resource available.  Publisher name + “ ” + “[” + IDs + “]” square brackets should not be entered if there is no ID.
+The entity responsible for making the resource available. 
 
 <p align=center style="font-weight:bold;">Publisher name + “ ” + “[” + IDs + “]”</p>
 
