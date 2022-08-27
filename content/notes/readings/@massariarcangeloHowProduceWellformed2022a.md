@@ -3,6 +3,9 @@ title: "massariarcangeloHowProduceWellformed2022a"
 authors: Arcangelo Massari
 tags:
 - reading
+- oc
+- meta
+- croci
 ---
 # Notes on *How to produce well-formed CSV files for OpenCitations*
 Author(s): **Arcangelo Massari**
@@ -39,7 +42,7 @@ Syntax:
 ### title
 Text string corresponding to the document's title. 
 ### author
-Author's/authors' full name and, optionally, identifier. An author's ID is indicated with the same syntax as for a [document's id](notes/readings/@massariarcangeloHowProduceWellformed2022a#id), but inside square brackets. If there are no IDs, there will be no square brackets at all. **The author's *last name* is optional, but even without the first name, the comma after the last name is still necessary!**
+Author's/authors' full name and, optionally, identifier. An author's ID is indicated with the same syntax as for a [document's id](notes/readings/@massariarcangeloHowProduceWellformed2022a.md#id), but inside square brackets. If there are no IDs, there will be no square brackets at all. **The author's *last name* is optional, but even without the first name, the comma after the last name is still necessary!**
 
 Syntax: 
 
@@ -112,7 +115,7 @@ Described in the same way as the `author` field.
 
 
 #### Mandatory fields
-If the ID of the document is specified, no other field is mandatory. Otherwise, i.e. if the ID is not specified, certain fields become compulsory, depending on the [type](notes/readings/@massariarcangeloHowProduceWellformed2022a#type) of the resource, as described by the table below. 
+If the ID of the document is specified, no other field is mandatory. Otherwise, i.e. if the ID is not specified, certain fields become compulsory, depending on the [type](notes/readings/@massariarcangeloHowProduceWellformed2022a.md#type) of the resource, as described by the table below. 
 
 | ![massariarcangeloHowProduceWellformed2022a](images/massariarcangeloHowProduceWellformed2022a.jpg) |
 | --------------------- |
@@ -143,6 +146,4 @@ When specifying a value in this field, it is mandatory to specify at least the p
 **Mandatory**. Publication date of the cited entity. Follows the same rules as the citing_id field.
 ### cited_publication_date
 **Optional**. Follows the same rule as the citing_publication_date field. 
-
-
 
