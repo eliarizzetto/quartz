@@ -117,7 +117,7 @@ Described in the same way as the `author` field.
 #### Mandatory fields
 If the ID of the document is specified, no other field is mandatory. Otherwise, i.e. if the ID is not specified, certain fields become compulsory, depending on the [type](notes/readings/@massariarcangeloHowProduceWellformed2022a.md#type) of the resource, as described by the table below. 
 
-| ![massariarcangeloHowProduceWellformed2022a](images/massariarcangeloHowProduceWellformed2022a.jpg) |
+| ![massariarcangeloHowProduceWellformed2022a](images/massariarcangeloHowProduceWellformed2022a-fig2.jpg) |
 | --------------------- |
 | Fig. 2. Summary of mandatory fields in a metadata CSV if no identifier was specified in a specific row. “M” is an abbreviation for mandatory. Conversely, “O” stands for OR, is always present in pairs, and means that at least one element of the pair is compulsory. |
 
