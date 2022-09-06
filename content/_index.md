@@ -28,7 +28,7 @@ Below, you can find an Index of **all the work sessions and the meetings**, whic
 | **Sessions** | **Meetings** |
 | ---------| ---------|
 | ↪️[session 001](notes/sessions/session%20001.md) |↪️[meeting 001](notes/meetings/meeting%20001.md) |
-
+| ↪️[session 002](notes/sessions/session%20002.md) |↪️[meeting 002](notes/meetings/meeting%20002.md) |
 
 ## Readings
 
