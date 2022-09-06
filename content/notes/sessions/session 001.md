@@ -51,5 +51,7 @@ This paper describes the syntax of the CSV files for crowdsourced metadata (META
 The main resource for the documentation of the **syntax of** crowdsourced **CSV files** in OpenCitations (META-CSV) and (CITS-CSV).
 
 #### [@persianiProgrammingInterfaceCreating2022](notes/readings/@persianiProgrammingInterfaceCreating2022.md)
+
 <p align=center>!!Difficult, read again later!!</p>
+
 This paper introduces oc_ocdm, a Python library developed for creating OCDM-compliant RDF data.
