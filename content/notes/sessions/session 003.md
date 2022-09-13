@@ -10,7 +10,7 @@ date: 2022-09-13 02:31
 		data-date="2022-09-13-00">
 </span>
 
-👥 [**Reference meeting: 003**](notes/meetings/meeting003.md)
+👥 [**Reference meeting: 003**](notes/meetings/meeting%20003.md)
 
 🔙 [**Previous work session: 002**](notes/sessions/session%20002.md)
 
