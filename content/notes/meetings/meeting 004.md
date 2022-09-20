@@ -26,10 +26,10 @@ date: 2022-09-17 18:59
 Possibili soluzioni:[^1]
 1. Page title sia per gli input id prefissati da `wikidata:` (Q-ID, cioè così come è ora) che per quelli prefissati da `wikipedia:`. 
 2. Page ID sia per `wikidata:` che per `wikipedia:`.
-~~3. *Solo* Page Title per `wikipedia:`, Page Title *o* Page ID (Q-ID) per `wikidata:`.~~
-~~4. *Solo* Page ID (numero intero positivo) per `wikipedia:`, Page Title *o* Page ID (Q-ID) per `wikidata:`.~~
+3. *Solo* Page Title per `wikipedia:`; Page Title *o* Page ID (Q-ID) per `wikidata:` nell'input dell'utente, solo uno dei due nell'output della validazione. 
+4. *Solo* Page ID (numero intero positivo) per `wikipedia:`; Page Title *o* Page ID (Q-ID) per `wikidata:` nell'input dell'utente, solo uno dei due nell'output della validazione. .
 
-[^1]: Scarto la possibilità di ammettere entrambi i tipi di id per Wikipedia perché non sono automaticamente distinguibili. Inoltre, non è ammissibile avere due possibili identificativi per lo stesso prefisso all'interno di OC (la stessa risorsa, se è rappresentata con due identificativi diversi per lo stesso prefisso, es. `wikidata:`, risulta come due risorse diverse all'interno degli inidici)
+[^1]: Scarto la possibilità di ammettere entrambi i tipi di id per Wikipedia perché non sono automaticamente distinguibili. Inoltre, non è ammissibile avere due possibili identificativi per lo stesso prefisso all'interno di OC (la stessa risorsa, se è rappresentata con due identificativi diversi per lo stesso prefisso, es. `wikidata:`, risulta come due risorse diverse all'interno degli indici). È comunque possibile lasciare che l'utente mandi l'identificativo che vuole, per poi cambiarlo noi nel tipo di identificativo che ammettiamo noi, in seguito alla richiesta all'API.
 
 ### È necessario ammettere che l'utente invii come ID per wikidata o wikipedia l'URL completo?
 Es. "wikipedia://en.wikipedia.org/w/index.php?curid=8091"  
