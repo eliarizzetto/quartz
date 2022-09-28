@@ -38,3 +38,14 @@ Es. "wikipedia://en.wikipedia.org/w/index.php?curid=8091"
 
 
 
+# Incontro 
+### Arcangelo
+Affinata la proposta di automatizzare il processo di ricezione dei dati per la validazione (con GitHub issues)
+
+### TO DO
+* manda mail a Simone Persiani e metti in Silvio in cc: dobbiamo sapere che cosa è stato usato come ID delle pagine di Wikipedia nel software di wcw. Usare il Title Page (invece che il Page ID) è la soluzione che preferiamo per ora, ma resta da capire del tutto come funziona: i redirect? come vengono gestiti gli spazi? etc.
+* il controllo sintattico va ASSOLUTAMENTE  separato dagli altri e fatto passare prima di tutti gli altri metodo dell'ID Manager. Un buon worflow potrebbe essere:
+  1. Controllo sul formato OC
+  2. Controllo sintattico sul dato COSì COME L'HA INVIATO L'UTENTE (<u>**senza normalise**</u>). **Se non lo passa, l'*utente* deve correggerlo**.
+  3. <u>Chiamare direttamente .is_valid</u>: avendo già passato il controllo sintattico, il normalise cambierà soltanto delle cose minime, poi ri-controllerà la sintassi sul dato normalizzato, e poi ritornerà le info semantiche. **Se non passa .is_valid, è  sicuramente perché "non ha passato" .exist, dal momento che se ha già passato il controllo sintattico sul dato non normalizzato, non può non passarlo su quello normalizzato.** 
+  * in generale Silvio è dell'idea che sia meglio lasciare che siano *gli utenti* a prendere delle decisioni, e quindi andarci cauti con i suggerimenti rispetto a potenziali correzioni. Sicuramente tu non devi cambiare niente! (per questo il normalise va usato soltanto dopo che il dato ha passato il controllo sintattico!).
