@@ -10,9 +10,9 @@ date: 2022-09-28 02:51
 		data-date="2022-09-28-00">
 </span>
 
-👥 [**Reference meeting: 00X**](#insert path)
+👥 [**Reference meeting: 005**](notes/meetings/meeting%20005.md)
 
-🔙 [**Previous work session: 00X**](#insert path)
+🔙 [**Previous work session: 004**](notes/sessions/session%20004.md)
 
 > [!info]+ My goals for this session
 > 
