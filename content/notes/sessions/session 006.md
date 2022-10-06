@@ -122,3 +122,4 @@ else:
 2. Ha senso che io mi preoccupi di dividere gli elementi interni a un field?
 3. Ha senso preoccuparmi di verificare aspetti diversi di uno stesso livello di validazione, per sperare di riuscire a fornire un feedback preciso; ovvero, ha senso che faccia controlli separati con le regex con i prefissi specifici e quelle senza. 
 4. Ha senso pensare di salvare prima tutti gli errori e poi condizionare in base ai risultati nel report (anche in base al tipo di errore) il passaggio ai successivi livelli di validazione?
+5. Software di Arcangelo gestisce casi in cui ci sono più spazi tra un'ID e l'altro: posso permettermi di evitare di segnalare come errore una cosa tipo "doi:10/123456       doi:10/6789019", e semplicemente fare il controllo sugli elementi della lista dopo .split?
