@@ -51,7 +51,9 @@ date: 2022-10-13 04:42
 }
 ```
 
+È possibile che non sia utilizzabile in una libreria, non passando la valid
 
+compatibile con lo schema di una validazione. 
 ### Domande
 1. Rendere esplicita la posizione dell'errore, ovvero inserire una proprietà come "position" sia per le rows che per gli elementi interni a un field? suppongo sia necessario...
 2. A proposito di JSON Schema: ha senso pensare di utilizzare una libreria basata su JSON Schema per validare il .csv? Ora che sto iniziando a capire la logica di JSON Schema, mi sembra meno difficile di quando ho iniziato a dare un'occhiata a Cerberus e python-jsonschema. Suppongo che entrambe le librerie ammettano di integrare l'utilizzo di funzioni esterne alla libreria, ma il problema maggiore resta la difficoltà (l'impossibilità?) di personalizzare l'output della validazione.
