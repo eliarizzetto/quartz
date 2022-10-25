@@ -21,7 +21,7 @@ Viste le [indicazioni dell'altra volta](notes/meetings/meeting%20008.md), ho cre
 + la funzione che crea il report https://github.com/eliarizzetto/thesis_resources/blob/033002e63ca6a2e38e58aaf14ec17503afd6dd5b/CITS/create_report.py
 + la bozza della struttura principale, in cui vengono chiamate le altre funzioni (quelle di validazione e quella che crea il report, *ogni volta* che una funzione di validazione non viene passata. https://github.com/eliarizzetto/thesis_resources/blob/033002e63ca6a2e38e58aaf14ec17503afd6dd5b/CITS/validate_cits.py
 
-### [[Errors map]]
+### [Errors map](notes/Errors%20map.md)
 Ho iniziato a compilare un .csv in cui elencare tutti i possibili errori, associandovi le funzioni che li rilevano e quali valori sono da specificare nel relativo report. 
 
 
