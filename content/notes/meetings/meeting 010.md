@@ -41,12 +41,14 @@ Ho aggiornato i JSON schema[^1] secondo le indicazioni di [meeting 009](notes/me
 
 
 ### Disperati tentativi di gestire i duplicati delle citazioni
+
 Quando delle citazioni si ripetono nel documento, si tratta di un errore.
-Le citazioni:
-* Devono essere considerate tra *identificativi*  o tra *entità bibliografiche*? È necessario mappare a dei meta-identificativi ciascun ID tra quelli che ci sono nel documento (sulla base della co-occorrenza di alcuni di essi in uno stesso field)? Nel caso di una citazione duplicata, la posizione di quali elementi dovrebbe essere presente nel report dell'errore? Quante e quali casistiche di duplicazione sono possibili, e quindi da individuare?
+* Quante e quali casistiche di duplicazione sono possibili, e quindi da individuare?
+* Le citazioni devono essere considerate tra *identificativi*  o tra *entità bibliografiche*? 
+* È necessario mappare a dei meta-identificativi ciascun ID tra quelli che ci sono nel documento (sulla base della co-occorrenza di alcuni di essi in uno stesso field)? 
+* Nel caso di una citazione duplicata, la posizione di quali elementi dovrebbe essere presente nel report dell'errore?
 
-
-
+Vedi [duplicates examples](notes/duplicates%20examples.md).
 
 
 [^1]: [Branch](https://github.com/eliarizzetto/thesis_resources/tree/1-semantically-richer-error-dictionaries-meeting-008) dedicato. Vedi: JSON Schema [per singolo errore](https://github.com/eliarizzetto/thesis_resources/blob/3e540fd7a9a3b8d8fe741d146608a8e1d90d2566/check_output/single_validation_output_schema.json) e [per tutto il report](https://github.com/eliarizzetto/thesis_resources/blob/3e540fd7a9a3b8d8fe741d146608a8e1d90d2566/check_output/error_report_schema.json); funzione per creare i dizionari in [`create_report.py`](https://github.com/eliarizzetto/thesis_resources/blob/3e540fd7a9a3b8d8fe741d146608a8e1d90d2566/CITS/create_report.py). 
