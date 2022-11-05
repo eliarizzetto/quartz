@@ -34,6 +34,9 @@ Ho aggiornato i JSON schema[^1] secondo le indicazioni di [meeting 009](notes/me
 
 
 ### Modifiche alla struttura principale per CITS-CSV
+
+^21392f
+
 - [permalink alla versione del file](https://github.com/eliarizzetto/thesis_resources/blob/3e540fd7a9a3b8d8fe741d146608a8e1d90d2566/CITS/validate_cits.py)
 * messaggi all'utente in file di configurazione esterno (→ da chiavi con nomi più espliciti nel file yaml)
 * adattato struttura a nuova forma di `position` (ad es. se il field di una row è `citing_publication_date` o `citing_publication_date` → allora → `table = {row: field: [0]}`, dal momento che questi field non vengono "scomposti" in items).
@@ -83,7 +86,7 @@ Vedi [Duplicates examples](notes/Duplicates%20examples.md).
 ```
 La lista vuota come valore del field (es. `'table': {0: {'citing_id': []}` ) tienila a mente come possibilità futura per rappresentare alcune casistiche, anche se per ora non ci viene in mente nessun caso in cui possa essere utile. 
 
-2. Per risolvere il problema sollevato in [Modifiche alla struttura principale per CITS-CSV](notes/meetings/meeting%20010.md#Modifiche%20alla%20struttura%20principale%20per%20CITS-CSV), ovvero che a funzioni di validazione diverse corrispondono error report uguali, rendendo impossibile distinguere la tipologia di errore specifica in modo machine-readable, bisogna **aggiungere una label ulteriore nel report, che specifichi, oltre al validation_level, anche di quale errore specifico si tratta**, all'intero della tassonomia. Ad esempio, per poter distinguere il fatto che un item non è valido <u>perché è uno spazio</u> dal fatto che non è valido <u>perché non rispetta la regex  del formato degli identificativi</u>, si metterà qualcosa come:
+2. Per risolvere il problema sollevato in [Modifiche alla struttura principale per CITS-CSV](#Modifiche%20alla%20struttura%20principale%20per%20CITS-CSV), ovvero che a funzioni di validazione diverse corrispondono error report uguali, rendendo impossibile distinguere la tipologia di errore specifica in modo machine-readable, bisogna **aggiungere una label ulteriore nel report, che specifichi, oltre al validation_level, anche di quale errore specifico si tratta**, all'intero della tassonomia. Ad esempio, per poter distinguere il fatto che un item non è valido <u>perché è uno spazio</u> dal fatto che non è valido <u>perché non rispetta la regex  del formato degli identificativi</u>, si metterà qualcosa come:
    
 ```
 [
