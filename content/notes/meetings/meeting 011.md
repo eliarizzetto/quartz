@@ -30,3 +30,7 @@ Ora si riescono a rilevare gli errori legati alla duplicazione di ID, di bibliog
 
 
 ## Incontro
+
+* la ripetizione di uno stesso ID nella stessa cella è un **errore** e ha **valid = False**, perché - per lo meno Arcangelo con META - il campo contenente gli ID viene gestito come lista, non come set. Poi è una modifica che Arca potrebbe fare, ma il principio è che se un dato inviato dall'utente richiede delle modifiche al codice per essere integrato, allora è un dato sbagliato!
+
+* la self-citation è **valid=True** perché è una cosa in linea di principio possibile! Però segnalalo comunque come **warning**, perché il più delle volte (?) deriva da un uso sbagliato del data model (?) 
