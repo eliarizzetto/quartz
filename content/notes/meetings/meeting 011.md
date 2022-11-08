@@ -14,7 +14,7 @@ date: 2022-11-08 02:18
 🔙 [**Previous meeting: 010**](notes/meetings/meeting%20010.md)
 
 ## **To do**
-* [v] Duplicates
+* [x] Duplicates
 * [ ] Correggi JSON schemas e `create_report()` in base a indicazioni in [meeting 010](notes/meetings/meeting%20010.md) (`None` fuori dalla lista;  label specifica per ogni tipo di errore nel report)
 * [ ] Completa/rivedi messaggi all'utente
 * [ ] Estendi [Errors map](notes/Errors%20map.md)
