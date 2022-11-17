@@ -42,7 +42,7 @@ Syntax:
 ### title
 Text string corresponding to the document's title. 
 ### author
-Author's/authors' full name and, optionally, identifier. An author's ID is indicated with the same syntax as for a [document's id](notes/readings/@massariarcangeloHowProduceWellformed2022a.md#id), but inside square brackets. If there are no IDs, there will be no square brackets at all. **The author's *last name* is optional, but even without the first name, the comma after the last name is still necessary!**
+Author's/authors' full name and, optionally, identifier. An author's ID is indicated with the same syntax as for a [document's id](notes/readings/@massariarcangeloHowProduceWellformed2022a.md#id), but inside square brackets. If there are no IDs, there will be no square brackets at all. **The author's *first name* is optional, but even without the first name, the comma after the last name is still necessary!** **<u>The separator between the data associated to different authors is a semi-colon, followed by a single space</u>: `; `.**
 
 Syntax: 
 
@@ -52,6 +52,7 @@ Syntax:
 > 
 >  * Peroni, Silvio [orcid:0000-0003-0530-4305]
 >  * Peroni, [orcid:0000-0003-0530-4305]
+>  * Shotton, David [0000-0001-5506-523X]; Peroni, [orcid:0000-0003-0530-4305]
 
 
 ### pub_date
