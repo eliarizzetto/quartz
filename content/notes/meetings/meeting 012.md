@@ -15,10 +15,12 @@ date: 2022-11-16 14:53
 
 
 ## META-CSV: domande
+versione: https://github.com/eliarizzetto/thesis_resources/blob/f5d0a5e189b17df71173e1542857e9ae630d4998/CITS/validate_meta.py
 
-### url e wikipedia sono ID possibili per tutti i responsible agents (authors, publisher, editor)?
 
-### Come suddividere in items i valori dei field dei r.a.?
+
+
+### 1. Come suddividere in items i valori dei field dei r.a.?
 * author e editor vogliono obbligatoriamente la virgola
 * publisher non ammette la virgola (???)
 * le quadre ci sono solo se contengono ID all'interno (mai `[]` vuote!)
@@ -63,7 +65,9 @@ Una stringa come questa qui sopra (che è corretta), è possibile/sensato rappre
 
 ```
 
+Ho dato un'occhiata alle regex di Arcangelo: https://github.com/opencitations/oc_meta/blob/master/oc_meta/lib/master_of_regex.py
 
 ##### Il field publisher non ammette virgole nel nome?
 
 
+### 2. url e wikipedia sono ID possibili per tutti i responsible agents (authors, publisher, editor)?
