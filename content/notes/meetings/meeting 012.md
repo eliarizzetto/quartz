@@ -101,4 +101,4 @@ Nel caso in cui volessi rappresentare il fatto che un doi non può essere associ
 Forse, si può anche pensare di usare le formatted strings per localizzare la posizione dell'ID, ad esempio, nel messaggio all'utente, dando qualche indicazione **non** machine readable.
 
 
-Inoltre, tieni presente che non solo non è necessario, ma non sarebbe nemmeno corretto, mappare le stringhe dei nomi a gruppi di identificativi (le stringhe dei nomi, infatti, possono variare, ad esempio con abbreviazioni, secondi nomi, ecc.). --> per META-CSV non bisogna mappare niente. 
+Inoltre, tieni presente che non solo non è necessario, ma non sarebbe nemmeno corretto, mappare le stringhe dei nomi a gruppi di identificativi (le stringhe dei nomi, infatti, possono variare, ad esempio con abbreviazioni, secondi nomi, ecc.). --> per META-CSV non bisogna mappare niente, per quanto riguarda i RA. 
