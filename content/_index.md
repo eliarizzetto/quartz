@@ -40,7 +40,7 @@ Below, you can find an Index of **all the work sessions and the meetings**, whic
 | ↪️[session 011](notes/sessions/session%20011.md) | ↪️[meeting 011](notes/meetings/meeting%20011.md) |
 | ...                                              | ↪️[meeting 012](notes/meetings/meeting%20012.md) |
 | ...                                              | ↪️[meeting 013](notes/meetings/meeting%20013.md) |
-| [session 014](notes/sessions/session%20014.md)   | ↪️[meeting 014](notes/meetings/meeting%20014.md) |
+| ↪️[session 014](notes/sessions/session%20014.md)   | ↪️[meeting 014](notes/meetings/meeting%20014.md) |
 
 ## Readings
 
