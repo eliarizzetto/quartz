@@ -48,7 +48,7 @@ Each Wikidata entity is identified by an **entity ID**, which is a number prefi
 -  there also seem to be [Entity Schemas](https://www.wikidata.org/wiki/EntitySchema:E2), prefixed by  `E`.
 
 
-The only way to retrieve precisely a resource from Wikidata is the entity's ID (e.g. Q42); i other words, with aliases and labels in the URL there is no way of getting to the relevant URI.
+The only way to retrieve precisely a resource from Wikidata is the entity's ID (e.g. Q42); in other words, with aliases and labels in the URL there is no way of getting to the relevant URI.
 E.g. `https://www.wikidata.org/wiki/Special:EntityData/Q42` leads to Douglas Adams' page, but `https://www.wikidata.org/wiki/Special:EntityData/Douglas_Adams` doesn't!
 
 #### Sintactic validation: regex for Wikidata identifiers
