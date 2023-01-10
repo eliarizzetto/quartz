@@ -78,6 +78,6 @@ Quindi, indipendentemente dal fatto che sia specificato l'`id` oppure no, se un 
 * è sempre obbligatorio specificare il type, ma con un valore specifico che dipende da specifiche condizioni, spiegate qui sotto
 	* se `issue` è specificato → `type` == (`journal article`|`journal issue`)
 	* se `volume` è specificato →  `type` == (`journal article`|`journal issue`|`journal volume`)
-{* se  `type` == `journal issue` → è obbligatorio specificare (`title`|`issue`)}
+{ se  `type` == `journal issue` → è obbligatorio specificare (`title`|`issue`)}
 
 
