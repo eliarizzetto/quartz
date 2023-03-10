@@ -13,29 +13,6 @@ date: 2022-10-13 04:41
 
 🔙 [**Previous meeting: 00X**]("#insert path")
 
-> [!abstract]+ Summary
-> 
-> In this meeting we talked about:
-
-## **Introduction**
-
-
-
-
-## **Q&A**
-### *Question 1: *
-Answer
-### *Question 2: *
-Answer
-
-
-
-## **To do**
-* [ ] Task 1
-* [ ] Task 2
-* [ ] Task 3
-
-
 
 ### appunti
 
