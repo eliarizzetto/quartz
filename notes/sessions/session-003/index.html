@@ -1,0 +1,130 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="👥 Reference meeting: 003
+🔙 Previous work session: 002
+Librerie per validazione   Cerberus  Json Schema Ho provato a capire la documentazione di cerberus, ma mi è sembrato meno vantaggioso di quanto mi aspettassi: ci metto più tempo a capire come funzionano le &ldquo;validation rules&rdquo; -ed ad adattarle alle mie esigenze - che non a scriverle da me."><title>Session 003</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://eliarizzetto.github.io/quartz//icon.png><link href=https://eliarizzetto.github.io/quartz/styles.73413c7d02f0a90e2e21c762128620e3.min.css rel=stylesheet><link href=https://eliarizzetto.github.io/quartz/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://eliarizzetto.github.io/quartz/js/darkmode.dba7eba5e9fc332492f8ef25a15ab4c0.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/util.39f53d45cb9520bdaf946bd063598b19.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script src=https://eliarizzetto.github.io/quartz/js/popover.2337da24106a7a5ab44684cc7594dca9.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const BASE_URL="https://eliarizzetto.github.io/quartz/",fetchData=Promise.all([fetch("https://eliarizzetto.github.io/quartz/indices/linkIndex.f506c17acb33141061924b9e7b52e1e3.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://eliarizzetto.github.io/quartz/indices/contentIndex.0103a4e23583bbf5dceebb0af3c7896e.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const n=new URL(BASE_URL),s=n.pathname,o=window.location.pathname,i=s==o;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts();const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=i&&!1;drawGraph("https://eliarizzetto.github.io/quartz",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2}),initPopover("https://eliarizzetto.github.io/quartz",!0,!0)},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/eliarizzetto.github.io\/quartz\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-XYFD95KB4J",{anonymize_ip:!1})}</script><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://eliarizzetto.github.io/quartz/js/full-text-search.24827f874defbbc6d529926cbfcfb493.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://eliarizzetto.github.io/quartz/>My Thesis Diary</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><h1>Session 003</h1><p class=meta>Last updated
+Sep 13, 2022</p><ul class=tags><li><a href=https://eliarizzetto.github.io/quartz/tags/timeline/>Timeline</a></li><li><a href=https://eliarizzetto.github.io/quartz/tags/session/>Session</a></li></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#librerie-per-validazione>Librerie per validazione</a></li><li><a href=#framework-per-il-processo-di-validazione>Framework per il processo di validazione</a><ol><li></li></ol></li><li><a href=#proposta-di-impostazione-del-codice-per-validare-ids>Proposta di impostazione del codice per validare IDs</a></li><li><a href=#test-e-revisione-di-identifiermanager>Test e revisione di IdentifierManager</a></li></ol></nav></details></aside><p><span class=ob-timelines data-date=2022-09-13-00></span></p><p>👥
+<a href=/quartz/notes/meetings/meeting-003/ rel=noopener class=internal-link data-src=/quartz/notes/meetings/meeting-003/><strong>Reference meeting: 003</strong></a></p><p>🔙
+<a href=/quartz/notes/sessions/session-002/ rel=noopener class=internal-link data-src=/quartz/notes/sessions/session-002/><strong>Previous work session: 002</strong></a></p><a href=#librerie-per-validazione><h2 id=librerie-per-validazione><span class=hanchor arialabel=Anchor># </span>Librerie per validazione</h2></a><ul><li><a href=https://docs.python-cerberus.org/en/stable/ rel=noopener>Cerberus</a></li><li><a href=https://json-schema.org/ rel=noopener>Json Schema</a>
+Ho provato a capire la documentazione di cerberus, ma mi è sembrato meno vantaggioso di quanto mi aspettassi: ci metto più tempo a capire come funzionano le &ldquo;validation rules&rdquo; -ed ad adattarle alle mie esigenze - che non a scriverle da me.</li></ul><p>È stato comunque utile per capire quanto e come, in generale, possano essere utili dei software pronti all&rsquo;uso per la validazione, e ad avere un esempio di riferimento come framework. Eventualmente posso ritornarci sopra quando avrò definito meglio il workflow per la validazione, anche se ne dubito.</p><a href=#framework-per-il-processo-di-validazione><h2 id=framework-per-il-processo-di-validazione><span class=hanchor arialabel=Anchor># </span>Framework per il processo di validazione</h2></a><p>Dal tentativo di capire Cerberus sono emerse alcune riflessioni, che ho provato a generalizzare qui sotto. In particolare, mi sembra rilevante la necessità di <strong>definire uno schema</strong> che rappresenti dati corretti. È una cosa che - se effettivamente necessaria - spero di poter fare in itinere, vale a dire una volta che ho avrò del codice funzionante da poter &ldquo;astrarre&rdquo; in uno schema formale.</p><h3 style=text-align:center>Software general structure</h3><p>Validation consists in checking an input document against a schema: any document that matches the schema is said to “validate” against the schema specified in input.</p><ul><li><strong>Input</strong>: document, schema, set of error types</li><li><strong>Output</strong>: boolean value for a specified type of error; error position in document; suggested correction/action.</li></ul><a href=#3-typeslevels-of-validation><h4 id=3-typeslevels-of-validation><span class=hanchor arialabel=Anchor># </span>3 types/levels of validation:</h4></a><ol><li><strong>Against OC accepted format</strong> (table structure; string format):<ul><li>problems regarding the OC <em>table structure</em> (CITS-CSV, META-CSV) may occur while checking if, e.g.:<ul><li>all fields are present (header)</li><li>the values for any required fields are specified coherently with the constraints listed in
+<a href=/quartz/notes/readings/massariHowStructureCitations2022/ rel=noopener class=internal-link data-src=/quartz/notes/readings/massariHowStructureCitations2022/>@massariHowStructureCitations2022</a></li><li>etc.</li></ul></li><li>problems regarding the string format may be, e.g.:<ul><li>no incorrect spaces in the cell</li><li>correct use of square brackets in the <code>id</code> or <code>author </code>fields</li><li>lowercase in the id prefix</li><li>etc.</li></ul></li></ul></li><li><strong>Against ID-specific syntax</strong>
+Validate according to the syntax defined by an external schema, one for each type of accepted ID. The accepted ID in OpenCitations are the following:<ul><li><strong>Bibliographic resources (br)</strong>: &lsquo;doi&rsquo;, &lsquo;issn&rsquo;, &lsquo;isbn&rsquo;, &lsquo;pmid&rsquo;, &lsquo;pmcid&rsquo;, &lsquo;url&rsquo;, &lsquo;wikidata&rsquo;, &lsquo;wikipedia&rsquo;</li><li><strong>Responsible Agents (ra)</strong> (authors, editors, publishers): &lsquo;crossref&rsquo;, &lsquo;orcid&rsquo;, &lsquo;viaf&rsquo;, &lsquo;wikidata&rsquo;, &lsquo;ror&rsquo;</li></ul></li><li><strong>Semantic Validation</strong>
+Involves:<ul><li>Checking the actual existence of the input entities, represented in the table by their identifier, via request to the ID-specific API</li><li>(?)Checking the coherence of the information contained in other fields (e.g. type or author) with the information of the entity as it is represented by its identifier in the OC database or in the relative API</li><li>(?)Checking the conformity of the table with the OC data model (pySHACL)</li></ul></li></ol><a href=#3-types-of-error><h4 id=3-types-of-error><span class=hanchor arialabel=Anchor># </span>3 types of “error”</h4></a><p>An error type is assigned to an “error” instance (i.e. anything raising any error at any of the validation layers) according to its gravity level, and consequently to its level of “acceptability”:</p><ul><li><strong>note</strong></li><li><strong>warning</strong></li><li><strong>error</strong></li></ul><a href=#proposta-di-impostazione-del-codice-per-validare-ids><h2 id=proposta-di-impostazione-del-codice-per-validare-ids><span class=hanchor arialabel=Anchor># </span>Proposta di impostazione del codice per validare IDs</h2></a><div class=highlight title=ID_validation_structure1.py><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>re</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>id_field</span> <span class=o>=</span> <span class=p>{</span><span class=s1>&#39;id&#39;</span><span class=p>:</span> <span class=s1>&#39;doi:10.1007/978-3-540-88851-2 isbn:9783540888505 isbn:9783540888512&#39;</span><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>id_field_content</span> <span class=o>=</span> <span class=n>id_field</span><span class=p>[</span><span class=s1>&#39;id&#39;</span><span class=p>]</span><span class=o>.</span><span class=n>split</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>i</span> <span class=ow>in</span> <span class=n>id_field_content</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^doi&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for DOIs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for DOIs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for DOIs</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^issn&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for ISSNs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for ISSNs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for ISSNs</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^isbn&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for ISBNs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for ISBNs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for ISBNs</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^pmid&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for PMIDs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for PMIDs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for PMIDs</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^pmcid&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for PMCIDs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for PMCIDs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for PMCIDs</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^url&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for URLs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for URLs</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for URLs</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^wikidata&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#oc-format validation for wikidata</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for wikidata</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for wikidata</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>re</span><span class=o>.</span><span class=n>match</span><span class=p>(</span><span class=nb>id</span><span class=p>,</span> <span class=s1>&#39;^wikipedia&#39;</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>       <span class=c1>#oc-format validation for wikipedia</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#syntax validation for wikipedia</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#semantic validation for wikipedia</span>
+</span></span><span class=line><span class=cl>        <span class=k>pass</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>else</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=c1>#ritorna l&#39;errore del tipo giusto, con il messaggio giusto, con la posizione giusta</span>
+</span></span></code></pre></td></tr></table></div></div><a href=#test-e-revisione-di-identifiermanager><h2 id=test-e-revisione-di-identifiermanager><span class=hanchor arialabel=Anchor># </span>Test e revisione di IdentifierManager</h2></a><ul><li>Ho iniziato a capire come eseguire dei test con la libreria unittest</li><li>Ho capito la struttura generale delle varie classi di Identifier Manager e dei relativi metodi, in preparazione della scrittura di classi che estendano IdentifierManager consentendo la gestione degli ID finora mancanti.</li></ul></article><hr><div class=page-end><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li><a href=/quartz// data-ctx="session 003" data-src=/ class=internal-link>My Thesis Diary</a></li><li><a href=/quartz/notes/meetings/meeting-003/ data-ctx="Reference session: 003" data-src=/notes/meetings/meeting-003 class=internal-link>Meeting 003</a></li><li><a href=/quartz/notes/sessions/session-004/ data-ctx="Previous work session: 003" data-src=/notes/sessions/session-004 class=internal-link>Session 004</a></li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://eliarizzetto.github.io/quartz/js/graph.afdb02e537635f9a611b53a988e5645b.js></script></div></div><div id=contact_buttons><footer><p>Made by Elia Rizzetto using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2023</p><ul><li><a href=https://eliarizzetto.github.io/quartz/>Home</a></li><li><a href=https://github.com/eliarizzetto>Github</a></li></ul></footer></div></div></body></html>

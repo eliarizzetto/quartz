@@ -1,0 +1,192 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="👥 Reference meeting: 002
+🔙 Previous work session: 001
+ [!info]+ My goals for this session
+ prima lettura del dataset per capire cosa contiene primi esperimenti con il codice   Dataset Ho iniziato a farmi un&rsquo;idea dei dati che il software dovrà validare a partire dai dati di Crossref trasformati in CSV di input per OC Meta( dataset online su cartella onedrive)."><title>Session 002</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://eliarizzetto.github.io/quartz//icon.png><link href=https://eliarizzetto.github.io/quartz/styles.73413c7d02f0a90e2e21c762128620e3.min.css rel=stylesheet><link href=https://eliarizzetto.github.io/quartz/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://eliarizzetto.github.io/quartz/js/darkmode.dba7eba5e9fc332492f8ef25a15ab4c0.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/util.39f53d45cb9520bdaf946bd063598b19.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script src=https://eliarizzetto.github.io/quartz/js/popover.2337da24106a7a5ab44684cc7594dca9.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js></script>
+<script src=https://eliarizzetto.github.io/quartz/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const BASE_URL="https://eliarizzetto.github.io/quartz/",fetchData=Promise.all([fetch("https://eliarizzetto.github.io/quartz/indices/linkIndex.f506c17acb33141061924b9e7b52e1e3.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://eliarizzetto.github.io/quartz/indices/contentIndex.0103a4e23583bbf5dceebb0af3c7896e.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const n=new URL(BASE_URL),s=n.pathname,o=window.location.pathname,i=s==o;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts();const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=i&&!1;drawGraph("https://eliarizzetto.github.io/quartz",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2}),initPopover("https://eliarizzetto.github.io/quartz",!0,!0)},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/eliarizzetto.github.io\/quartz\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-XYFD95KB4J",{anonymize_ip:!1})}</script><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://eliarizzetto.github.io/quartz/js/full-text-search.24827f874defbbc6d529926cbfcfb493.min.js></script><div class=singlePage><header><h1 id=page-title><a href=https://eliarizzetto.github.io/quartz/>My Thesis Diary</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><h1>Session 002</h1><p class=meta>Last updated
+Sep 6, 2022</p><ul class=tags><li><a href=https://eliarizzetto.github.io/quartz/tags/timeline/>Timeline</a></li><li><a href=https://eliarizzetto.github.io/quartz/tags/session/>Session</a></li></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#dataset>Dataset</a></li><li><a href=#codice>Codice</a></li></ol></nav></details></aside><p><span class=ob-timelines data-date=2022-09-06-00></span></p><p>👥
+<a href=/quartz/notes/meetings/meeting-002/ rel=noopener class=internal-link data-src=/quartz/notes/meetings/meeting-002/><strong>Reference meeting: 002</strong></a></p><p>🔙
+<a href=/quartz/notes/sessions/session-001/ rel=noopener class=internal-link data-src=/quartz/notes/sessions/session-001/><strong>Previous work session: 001</strong></a></p><blockquote class="callout-collapsible info-callout"><p>My goals for this session</p><ul><li>prima lettura del dataset per capire cosa contiene</li><li>primi esperimenti con il codice</li></ul></blockquote><a href=#dataset><h2 id=dataset><span class=hanchor arialabel=Anchor># </span>Dataset</h2></a><p>Ho iniziato a farmi un&rsquo;idea dei dati che il software dovrà validare a partire dai dati di Crossref trasformati in CSV di input per OC Meta(
+<a href="https://liveunibo-my.sharepoint.com/personal/arcangelo_massari_unibo_it/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Farcangelo%5Fmassari%5Funibo%5Fit%2FDocuments%2FDocuments%2Fmeta%5Finput%2Ezip&parent=%2Fpersonal%2Farcangelo%5Fmassari%5Funibo%5Fit%2FDocuments%2FDocuments&ga=1" rel=noopener>dataset online su cartella onedrive</a>).</p><p>Sono partito dall&rsquo;esaminare gli identificativi degli autori; finora emerge che sono presenti <em>almeno</em> tre tipi di identificativi: <code>doi</code>, <code>isbn</code> e <code>issn</code>, dal più frequente al meno frequente.</p><a href=#codice><h2 id=codice><span class=hanchor arialabel=Anchor># </span>Codice</h2></a><p>Esiste già tra i lavori di OC (
+<a href=https://github.com/opencitations/index/tree/master/index/identifier rel=noopener>https://github.com/opencitations/index/tree/master/index/identifier</a>) il codice per verificare la correttezza sintattica di un identificativo e la sua esistenza, e se necessario normalizzarlo, <em>almeno</em> per <code>doi</code>, <code>issn</code> e <code>orcid</code>.
+Se non esiste già, andrebbe quindi fatto un programma, sul modello di quelli per <code>doi</code>, <code>issn</code> e <code>orcid</code>, che gestisca gli <code>isbn</code>.</p><p>Ho riutilizzato questo codice all&rsquo;interno del file
+<a href=https://github.com/eliarizzetto/index/blob/master/index/validation/session002.py rel=noopener>session002.py</a> che per ora permette di:</p><ul><li>accedere a e leggere tutti i file .csv all&rsquo;interno di una cartella di input e all&rsquo;interno di sue sottocartelle</li><li>leggere i file come dizionari</li><li>verificare la validità del valore/dei valori del field <code>"id"</code> con una richiesta alla relativa API, per <code>doi</code> e <code>issn</code>, sfruttando il codice preesistente</li><li>nel caso in cui l&rsquo;id non sia valido, mandare a schermo un messaggio con la posizione dell&rsquo;errore</li></ul><p>È da definire meglio la <em>condizione</em> attraverso cui si sceglie quale funzione chiamare per analizzare ciascun valore di id: per ora c&rsquo;è solo una regex minimale che controlla l&rsquo;inizio del valore (ammette solo i casi in cui non ci sono anomalie nel prefisso).</p><p>Questo il codice aggiornato a 06/09 (e qui la
+<a href=https://github.com/eliarizzetto/index/commit/e5967776e216b0c993fce368b5475c3b611d6c2c#diff-ce0a579d2aa9204ad6e68331df3f331c9e515cfb7ba3a98b43fb7b7e1c0e48c5 rel=noopener>versione online</a>):</p><div class=highlight title=session002.py><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span><span class=lnt>70
+</span><span class=lnt>71
+</span><span class=lnt>72
+</span><span class=lnt>73
+</span><span class=lnt>74
+</span><span class=lnt>75
+</span><span class=lnt>76
+</span><span class=lnt>77
+</span><span class=lnt>78
+</span><span class=lnt>79
+</span><span class=lnt>80
+</span><span class=lnt>81
+</span><span class=lnt>82
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># ----accessing and reading files  </span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>glob</span>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>csv</span> <span class=kn>import</span> <span class=n>DictReader</span>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>os</span> <span class=kn>import</span> <span class=n>sep</span><span class=p>,</span> <span class=n>makedirs</span><span class=p>,</span> <span class=n>walk</span>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>os.path</span> <span class=kn>import</span> <span class=n>exists</span><span class=p>,</span> <span class=n>basename</span><span class=p>,</span> <span class=n>isdir</span>  
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>tarfile</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=c1># ----managing identifiers  </span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>index.identifier.doimanager</span> <span class=kn>import</span> <span class=n>DOIManager</span>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>index.identifier.issnmanager</span> <span class=kn>import</span> <span class=n>ISSNManager</span>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>index.identifier.orcidmanager</span> <span class=kn>import</span> <span class=n>ORCIDManager</span>  
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>re</span> <span class=kn>import</span> <span class=n>sub</span><span class=p>,</span> <span class=n>match</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=n>source_paths</span> <span class=o>=</span> <span class=s1>&#39;C:/Users/media/Desktop/thesis23/meta_input&#39;</span>  
+</span></span><span class=line><span class=cl><span class=c1>#source_paths= &#34;C:/Users/media/Desktop/thesis23/oc/index/index/validation/test_files&#34;  </span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>get_all_files</span><span class=p>(</span><span class=n>i_dir_or_targz_file</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;  
+</span></span></span><span class=line><span class=cl><span class=s2>    Modified version of index.coci.glob.get_all_files() in order to access .csv files. If compressed files are found,    it automatically decompress and read them. Returns 2 variables: a list of file paths of raw .csv files; and the    list of decompressed files if any is found (otherwise None).    &#34;&#34;&#34;</span>    <span class=n>result</span> <span class=o>=</span> <span class=p>[]</span>  
+</span></span><span class=line><span class=cl>    <span class=n>targz_fd</span> <span class=o>=</span> <span class=kc>None</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=n>isdir</span><span class=p>(</span><span class=n>i_dir_or_targz_file</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=n>cur_dir</span><span class=p>,</span> <span class=n>cur_subdir</span><span class=p>,</span> <span class=n>cur_files</span> <span class=ow>in</span> <span class=n>walk</span><span class=p>(</span><span class=n>i_dir_or_targz_file</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>            <span class=k>for</span> <span class=n>cur_file</span> <span class=ow>in</span> <span class=n>cur_files</span><span class=p>:</span>  
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>cur_file</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&#34;.csv&#34;</span><span class=p>)</span> <span class=ow>and</span> <span class=ow>not</span> <span class=n>basename</span><span class=p>(</span><span class=n>cur_file</span><span class=p>)</span><span class=o>.</span><span class=n>startswith</span><span class=p>(</span><span class=s2>&#34;.&#34;</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>                    <span class=n>result</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>cur_dir</span> <span class=o>+</span> <span class=n>sep</span> <span class=o>+</span> <span class=n>cur_file</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>    <span class=k>elif</span> <span class=n>i_dir_or_targz_file</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&#34;tar.gz&#34;</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>        <span class=n>targz_fd</span> <span class=o>=</span> <span class=n>tarfile</span><span class=o>.</span><span class=n>open</span><span class=p>(</span><span class=n>i_dir_or_targz_file</span><span class=p>,</span> <span class=s2>&#34;r:gz&#34;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s2>&#34;utf-8&#34;</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=n>cur_file</span> <span class=ow>in</span> <span class=n>targz_fd</span><span class=p>:</span>  
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=n>cur_file</span><span class=o>.</span><span class=n>name</span><span class=o>.</span><span class=n>endswith</span><span class=p>(</span><span class=s2>&#34;.csv&#34;</span><span class=p>)</span> <span class=ow>and</span> <span class=ow>not</span> <span class=n>basename</span><span class=p>(</span><span class=n>cur_file</span><span class=o>.</span><span class=n>name</span><span class=p>)</span><span class=o>.</span><span class=n>startswith</span><span class=p>(</span><span class=s2>&#34;.&#34;</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>                <span class=n>result</span><span class=o>.</span><span class=n>append</span><span class=p>(</span><span class=n>cur_file</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>    <span class=k>else</span><span class=p>:</span>  
+</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;It is not possible to process the input path.&#34;</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>result</span><span class=p>,</span> <span class=n>targz_fd</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>access_csv</span><span class=p>(</span><span class=n>source_dir</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;Accesses the input directory and its relative subdirectories  
+</span></span></span><span class=line><span class=cl><span class=s2>    and returns a list of all the .csv file paths therein&#34;&#34;&#34;</span>  
+</span></span><span class=line><span class=cl>    <span class=n>source_data</span> <span class=o>=</span> <span class=n>glob</span><span class=o>.</span><span class=n>glob</span><span class=p>(</span><span class=sa>f</span><span class=s1>&#39;</span><span class=si>{</span><span class=n>source_dir</span><span class=si>}</span><span class=s1>/**/*.csv&#39;</span><span class=p>,</span> <span class=n>recursive</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>source_data</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=c1># ----------------parametri da mettere in input: source_paths,  </span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=n>doi_mngr</span> <span class=o>=</span> <span class=n>DOIManager</span><span class=p>()</span>  
+</span></span><span class=line><span class=cl><span class=n>issn_mngr</span> <span class=o>=</span> <span class=n>ISSNManager</span><span class=p>()</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>file</span> <span class=ow>in</span> <span class=n>access_csv</span><span class=p>(</span><span class=n>source_paths</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>    <span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>file</span><span class=p>,</span> <span class=s1>&#39;r&#39;</span><span class=p>,</span> <span class=n>encoding</span><span class=o>=</span><span class=s1>&#39;utf-8&#39;</span><span class=p>)</span> <span class=k>as</span> <span class=n>source_file</span><span class=p>:</span>  
+</span></span><span class=line><span class=cl>        <span class=n>data_dict</span> <span class=o>=</span> <span class=n>DictReader</span><span class=p>(</span><span class=n>source_file</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=n>position_in_table</span><span class=p>,</span> <span class=n>row</span> <span class=ow>in</span> <span class=nb>enumerate</span><span class=p>(</span><span class=n>data_dict</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>            <span class=n>field_id</span> <span class=o>=</span> <span class=n>row</span><span class=p>[</span><span class=s1>&#39;id&#39;</span><span class=p>]</span>  
+</span></span><span class=line><span class=cl>            <span class=c1>#print(field_id)  </span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>            <span class=k>for</span> <span class=n>position_in_field</span><span class=p>,</span> <span class=n>id_instance</span> <span class=ow>in</span> <span class=nb>enumerate</span><span class=p>(</span><span class=n>field_id</span><span class=o>.</span><span class=n>split</span><span class=p>()):</span>  
+</span></span><span class=line><span class=cl>                <span class=nb>print</span><span class=p>(</span><span class=n>id_instance</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>match</span><span class=p>(</span><span class=s2>&#34;^doi:10&#34;</span><span class=p>,</span> <span class=n>id_instance</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>                    <span class=n>normalized_id_instance</span> <span class=o>=</span> <span class=n>doi_mngr</span><span class=o>.</span><span class=n>normalise</span><span class=p>(</span><span class=n>id_instance</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>                    <span class=k>if</span> <span class=n>doi_mngr</span><span class=o>.</span><span class=n>is_valid</span><span class=p>(</span><span class=n>normalized_id_instance</span><span class=p>)</span> <span class=ow>is</span> <span class=kc>None</span><span class=p>:</span>  
+</span></span><span class=line><span class=cl>                        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s1>&#39;Take a look at id no. </span><span class=si>{</span><span class=n>position_in_field</span><span class=si>}</span><span class=s1> at row no. </span><span class=si>{</span><span class=n>position_in_table</span><span class=si>}</span><span class=s1> in file </span><span class=si>{</span><span class=n>file</span><span class=si>}</span><span class=s1>&#39;</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>match</span><span class=p>(</span><span class=s2>&#34;^issn:&#34;</span><span class=p>,</span> <span class=n>id_instance</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>                    <span class=n>normalized_id_instance</span> <span class=o>=</span> <span class=n>issn_mngr</span><span class=o>.</span><span class=n>normalise</span><span class=p>(</span><span class=n>id_instance</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>                    <span class=k>if</span> <span class=n>issn_mngr</span><span class=o>.</span><span class=n>is_valid</span><span class=p>(</span><span class=n>normalized_id_instance</span><span class=p>)</span> <span class=ow>is</span> <span class=kc>None</span><span class=p>:</span>  
+</span></span><span class=line><span class=cl>                        <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s1>&#39;Take a look at id no. </span><span class=si>{</span><span class=n>position_in_field</span><span class=si>}</span><span class=s1> at row no. </span><span class=si>{</span><span class=n>position_in_table</span><span class=si>}</span><span class=s1> in file </span><span class=si>{</span><span class=n>file</span><span class=si>}</span><span class=s1>&#39;</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>                <span class=k>if</span> <span class=n>match</span><span class=p>(</span><span class=s2>&#34;^isbn:&#34;</span><span class=p>,</span> <span class=n>id_instance</span><span class=p>):</span>  
+</span></span><span class=line><span class=cl>                    <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s1>&#39;Take a look at id no. </span><span class=si>{</span><span class=n>position_in_field</span><span class=si>}</span><span class=s1> at row no. </span><span class=si>{</span><span class=n>position_in_table</span><span class=si>}</span><span class=s1> in file </span><span class=si>{</span><span class=n>file</span><span class=si>}</span><span class=s1>&#39;</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>                    <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;A ISBN manager is yet to be developed&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div></article><hr><div class=page-end><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li><a href=/quartz// data-ctx="session 002" data-src=/ class=internal-link>My Thesis Diary</a></li><li><a href=/quartz/notes/meetings/meeting-002/ data-ctx="Reference session: 002" data-src=/notes/meetings/meeting-002 class=internal-link>Meeting 002</a></li><li><a href=/quartz/notes/sessions/session-003/ data-ctx="Previous work session: 002" data-src=/notes/sessions/session-003 class=internal-link>Session 003</a></li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://eliarizzetto.github.io/quartz/js/graph.afdb02e537635f9a611b53a988e5645b.js></script></div></div><div id=contact_buttons><footer><p>Made by Elia Rizzetto using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2023</p><ul><li><a href=https://eliarizzetto.github.io/quartz/>Home</a></li><li><a href=https://github.com/eliarizzetto>Github</a></li></ul></footer></div></div></body></html>

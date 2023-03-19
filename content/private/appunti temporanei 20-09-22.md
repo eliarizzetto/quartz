@@ -1,9 +1,0 @@
-
-### *Metodi di ciascun ID Manager da utilizzare*
-*Se nel processo di validazione i controlli devono essere passati in modo sequenziale, ha senso utilizzare il metodo `.is_valid`, che include e richiama tutti gli altri?*
-
-Così com'è ora, non serve, poiché che `.is_valid` include il metodo `.normalise`, che sostanzialmente fa quello che dovrebbe fare l'utente sulla base dei suggerimenti del validatore. 
-
-Se si togliesse il metodo `.normalise` da `.is_valid`, `.is_valid` potrebbe diventare il primo step della validazione del livello sintattico: assumendo che la cella abbia passato il primo livello di validazione (quello rispetto al formato OC), prima di tutto si verifica che passi `.is_valid` (senza `.normalize`); se lo passa, significa che ha (quasi del tutto) passato entrambi i livelli di validazione successivi (validazione *sintattica*, cioè controllo del formato dell'ID specifico, e validazione *semantica*, cioè controllo di esistenza). Rimarrebbero da mettere in atto soltanto le ulteriori verifiche del livello semantico, vale a dire i controlli sulla coerenza tra i  dati inviati dall'utente e quelli estraibili dall'API (es. publisher, tipo di pubblicazione, ecc.).[^1]
-
-[^1]: A questo punto però sarebbe il caso in integrare queste ulteriori verifiche di coerenza semantica direttamente in `.is_valid`, così da poter fare un'unica richiesta all'API. Per questa questione vedi con Arianna, che propone di estendere il codice con funzioni che estraggano altre informazioni da indicizzare (es. publisher) a partire dall'ID, a cui spesso sono associate info aggiuntive già nella relativa API. Considera anche la possibilità di ricorrere all'uso di API di terze parti per questi controlli di coerenza semantica, nel caso in cui le informazioni da confrontare non fossero disponibili nell'API relativa all'ID o nel caso in caso in cui l'API non fosse consultabile affatto. 
