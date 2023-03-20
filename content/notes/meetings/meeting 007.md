@@ -9,9 +9,9 @@ date: 2022-10-13 04:41
 		class="ob-timelines"
 		data-date="2022-10-13-00">
 </span>
-📑 [**Reference session: 00X**](#insert path)
+📑 [**Reference session: 007**](notes/sessions/session%20007.md)
 
-🔙 [**Previous meeting: 00X**]("#insert path")
+🔙 [**Previous meeting: 006**](notes/meetings/meeting%20006.md)
 
 
 ### appunti
