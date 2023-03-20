@@ -47,5 +47,5 @@ date: 2022-09-29 02:50
 + correggi flowchart: se non passa validazione il processo finisce; togli triangolino e metti delle frecce che confluiscono; 
 
 ## domande
-1. che cosa fare con le extra info? confronto con dati inviati dall'utente può andare? risposta: vedi sopra
+1. che cosa fare con le extra info? confronto con dati inviati dall'utente può andare? risposta: vedi sopra!
 
