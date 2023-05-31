@@ -48,4 +48,6 @@ Below, you can find an Index of **all the work sessions and the meetings**, whic
 If you're interested in getting an overview of the **readings** I have collected so far, you can visit [this section](https://eliarizzetto.github.io/quartz/tags/reading) of the website. Each reading has its own dedicated page, containing simple bibliographic information and notes on the content of the document. The page is referenced via `citekey`, a unique, ready-to-use identifier relative to my bibliographic collection in Zotero, which I will use for the writing phase. 
 
 
+diario [31 maggio 23](https://sleepy-geese-5d2.notion.site/2023-05-31-3e598c6fde794ebabf867740eab1f3ff)
+
 
